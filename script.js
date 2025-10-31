@@ -17,7 +17,7 @@ let nickname = '';
 submitName.addEventListener('click', () => {
   nickname = nicknameInput.value.trim();
   if (!nickname) {
-    alert('Isi dulu nama panggilan kamu dong 😳');
+    alert('Isi helaa gajee namaa kamuu naa');
     return;
   }
 
@@ -27,7 +27,7 @@ submitName.addEventListener('click', () => {
   const apologyTitle = apologyCard.querySelector('h1');
   apologyTitle.textContent = `Nahh, siapaa yang kerjaanyaa tiap harii suka ngambek ma akuu cungg, ${nickname} kan?`;
 
-  apologyText.innerHTML = `maafin akuu yaa bubb kaloo tiap hari akuu bikinn kamuu kesell teruss maafin akuu jugaa yaa sayanggg akuu gaa selaluu bisaa nepatin janjii akuu sepenuhnyaa maaf yaaa sayanggg tapii akuu berusahaa untuk yang terbaik untuk kamuuu lopyuuu cintakuuuu dewii yanggg cantikkk ehh btw jangan lupa nantii bagian kamuu mainn kerumahh akuuu siahhh`;
+  apologyText.innerHTML = `maafin akuu yaa bubb kaloo tiap hari akuu bikinn kamuu kesell teruss maafin akuu jugaa yaa sayanggg akuu gaa selaluu bisaa nepatin janjii akuu sepenuhnyaa maaf yaaa sayanggg tapii akuu berusahaa untuk yang terbaik untuk kamuuu lopyuuu cintakuuuu dewii yanggg cantikkk ehh  btw kapann nih main ke rumah akuunyaaa`;
 });
 
 noBtn.addEventListener('click', () => {
@@ -42,7 +42,7 @@ noBtn.addEventListener('click', () => {
 yesBtn.addEventListener('click', () => {
   popup.classList.add('active');
   popupTitle.textContent = `Nah gitu donggg,  mauu maafin akuu, ${nickname}! `;
-  popupMsg.textContent = `aku janji akan berusaha buat yang terbaik sayangg lopyuuu💖`;
+  popupMsg.textContent = `aku janji akan berusaha buat yang terbaik buat kamu sayangg lopyuuu💖`;
   generateHearts();
   setTimeout(() => {
     popup.classList.remove('active');
@@ -63,4 +63,5 @@ function generateHearts() {
     heartsContainer.appendChild(heart);
     setTimeout(() => heart.remove(), 2000);
   }
+
 }
