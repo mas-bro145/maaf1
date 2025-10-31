@@ -4,7 +4,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background: linear-gradient(135deg, #fce7f3, #e0e7ff);
+  backround-image:url(https://scontent-cgk1-1.xx.fbcdn.net/v/t39.30808-6/571765821_1373519227670407_6493874576822042219_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeFAJrfpk0xsDhoLTVs_hy8_Xqso8PXNOnVeqyjw9c06dXzyY6jiZq4-6Fxo7UFdfFMBitbY5ZTlXCBVMakU-XDl&_nc_ohc=ka1kabI0MRQQ7kNvwH_DXkU&_nc_oc=AdlUNBryY_gZASPnt1ngZNceau6r-gQeSeRw1KtXmkNp8o306Rwk41fa6i5Ldf_NoFY&_nc_zt=23&_nc_ht=scontent-cgk1-1.xx&_nc_gid=vRQw97DMqgnNTNR3pkFGTw&oh=00_Affp5fyqp0mw-VCCLzEdgQdPs72pFzLrMrtegVvmnzv12g&oe=690A8375);
+backround-size: 100% 100%;	
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,4 +210,5 @@ footer {
   p { font-size: 0.95rem; }
   button { font-size: 0.9rem; padding: 8px 18px; }
   .popup-content { padding: 32px 28px; max-width: 90%; }
+
 }
